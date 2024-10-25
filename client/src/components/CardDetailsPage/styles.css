@@ -1,0 +1,79 @@
+.card-detail-wrapper {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+ 
+  .content-wrapper {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left-content, 
+  .right-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-content {
+    max-width: 50%;
+  }
+  
+  .right-content {
+    max-width: 50%;
+  }
+  
+  .details-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+
+  
+
+
+  /* Стили для таблицы */
+  .table-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .table-wrapper {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .scrollable-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .scrollable-table th, 
+  .scrollable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .scrollable-table th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+  }
+  
+  .scrollable-table td {
+    background-color: #fff;
+  }
+  
+  .scrollable-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
